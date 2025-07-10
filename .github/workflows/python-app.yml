@@ -20,7 +20,7 @@ jobs:
     steps:
     # Checkout code from repo 
     - name: Checkout Code
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
     #Setup Python Env
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
